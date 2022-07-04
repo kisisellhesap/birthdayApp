@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.add-container {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    flex-direction: row;
+    color: #fff;
+}
+
+.add-person {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    padding: 2rem;
+    border-radius: 5px;
+    gap:1rem;
+}
+
+input {
+    padding: .4rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #000;
+}
+
+label {
+    font-size: 20px;
+}
+
+.add {
+    padding: .5rem 1rem;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.add:hover {
+    background-color: #fff;
+    color:slateblue ;
+}
+
+#image-input {
+border: none !important;
+width: 185px !important;
+}
+
+.control {
+    text-align: center;
+}
+
+
+
+.birthday-container {
+    width: 400px;
+    height: 100%;
+    background-color: brown;
+    padding: 2rem;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+
+}
+
+.birthday-container::-webkit-scrollbar-thumb {
+    color: #fff;
+    background-color: #fff;
+}
+
+.birthday-container::-webkit-scrollbar-track {
+    color: #fff;
+    background-color: #fff;
+}
+.birthday-persons {
+
+    gap:1rem;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.birthday-card {
+    width: 100%;
+    display: flex;
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 1rem;
+    justify-content: space-between;
+    color: brown;
+    font-size: 15px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-position:center;
+    background-size: cover;
+    background-color: brown;
+}
+
+
+
+.card-left, .card-middle,.card-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-left {
+        align-items: center;
+        gap: .5rem;
+}
+
+.card-middle {
+    justify-content: space-around;
+}
+
+.card-right {
+   
+}
+
+.card-right button {
+    padding: .3rem;
+    background-color: brown;
+    border: none;
+    color:  #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.personNumber {
+    margin-bottom: 1rem;
+}
